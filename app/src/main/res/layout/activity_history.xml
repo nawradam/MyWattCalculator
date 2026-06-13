@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/soft_blue_bg"
+    android:fitsSystemWindows="true"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap any record to view, edit, or delete details."
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:paddingBottom="15dp" />
+
+    <ListView
+        android:id="@+id/listViewBills"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonBackHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#616161"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
